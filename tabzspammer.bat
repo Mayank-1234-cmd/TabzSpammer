@@ -15,7 +15,7 @@ echo @echo off > %tts%spammer.bat
 echo cls > %tts%spammer.bat
 echo :lt > %tts%spammer.bat
 echo del "tabzspammed.txt" > %tts%spammer.bat
-echo echo %
+echo echo %var% > tabzspammed.txt > %tts%spammer.bat
 echo start CHROME %tts% > %tts%spammer.bat
 echo set /a var=var+1  > %tts%spammer.bat
 echo echo var > tabzspammed.txt
