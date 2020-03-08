@@ -13,3 +13,4 @@ set HEX=0123456789ABCDEF
 call set hexcolors=%%HEX:~%rand1%,1%%
 color %hexcolors%
 goto qwe
+
