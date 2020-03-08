@@ -5,6 +5,8 @@ title tab spammer
 set lt=1
 cls
 set /p tts=Tab to open a lot of times (ex. www.google.com or linustechtips.com): 
+se /p chc= Would you like to make a seperate file for this tab spamming? Y/N:
+IF "%var===chc%"=="" 
 :eyy
 cls
 
