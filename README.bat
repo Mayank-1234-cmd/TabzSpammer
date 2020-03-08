@@ -10,6 +10,6 @@ echo TabzSpammer is a tabspammer. It makes a file called tabzspammer.txt which c
 set /a rand1=%random% %% 16
 set /a rand2=%random% %% 16
 set HEX=0123456789ABCDEF
-call set hexcolors=%%HEX:~%rand1%,1%%%%HEX:~%rand2%,1%%
+call set hexcolors=%%HEX:~%rand1%,1%%
 color %hexcolors%
 goto qwe
